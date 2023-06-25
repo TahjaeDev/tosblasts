@@ -1,6 +1,6 @@
 info.onCountdownEnd(function () {
     game.setGameOverPlayable(true, music.melodyPlayable(music.jumpUp), false)
-    game.setGameOverMessage(true, "See the Tosverse youtube channel for more info")
+    game.setGameOverMessage(true, "see youtube channel")
     game.gameOver(true)
 })
 info.onLifeZero(function () {
